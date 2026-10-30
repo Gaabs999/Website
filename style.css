@@ -1,0 +1,140 @@
+
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+
+    background-image: url("./Background.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+
+    min-height: 300vh;
+
+    animation: moverFundo 4s linear infinite;
+}
+
+@keyframes moverFundo {
+    from {
+        background-position: 0px 0px;
+    }
+
+    to {
+        background-position: 256px -256px;
+    }
+}
+
+/* Texto :D */
+.yay {
+    color: black;
+    text-align: center;
+}
+
+/* Seu nome */
+.name {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+
+    top: 20px;
+    z-index: 100;
+}
+
+/* Caixa genérica */
+.Generic {
+    position: relative;
+    background-color: rgb(10, 0, 87);
+    color: black;
+
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 12px;
+
+    top: -200px;
+    margin: 250px auto 0;
+
+}
+
+/* Caixa principal */
+.Main {
+    position: relative;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+
+    background-color: rgb(10, 0, 87);
+    color: white;
+
+    width: 350px;
+    min-height: 500px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 12px;
+
+    top: -520px;
+    margin: 250px auto 0;
+}
+
+/* Imagem de perfil */
+.imagem {
+    position: relative;
+    display: block;
+
+    width: 100px;
+    height: auto;
+
+    top: -360px;
+
+    z-index: 100;
+
+    margin: auto;
+    
+}
+
+.Logo {
+    width: 300px;
+    height: auto;
+}
+
+.descriptionBeat {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.Contacts {
+    position: relative;
+    background-color: rgb(10, 0, 87);
+    color: black;
+
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 12px;
+
+    top: -740px;
+    margin: 250px auto 0;
+
+}
+
+.Contact {
+    position: relative;
+    width: 50px;
+    height: auto;
+}
+
+.Github {
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 70px;
+}
+
+.Itch {
+    position: relative;
+    left: 170px;
+    top: 0px;
+}
